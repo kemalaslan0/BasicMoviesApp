@@ -10,7 +10,6 @@
 		77BAA8452944B510002DEAF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA8442944B510002DEAF4 /* AppDelegate.swift */; };
 		77BAA8472944B510002DEAF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA8462944B510002DEAF4 /* SceneDelegate.swift */; };
 		77BAA8492944B510002DEAF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA8482944B510002DEAF4 /* ViewController.swift */; };
-		77BAA84C2944B510002DEAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA84A2944B510002DEAF4 /* Main.storyboard */; };
 		77BAA84E2944B511002DEAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA84D2944B511002DEAF4 /* Assets.xcassets */; };
 		77BAA8512944B511002DEAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA84F2944B511002DEAF4 /* LaunchScreen.storyboard */; };
 		77BAA8592944B527002DEAF4 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA8582944B527002DEAF4 /* movies.json */; };
@@ -40,6 +39,10 @@
 		77BAA88C2944B532002DEAF4 /* suicidesquad-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA8722944B532002DEAF4 /* suicidesquad-small.jpg */; };
 		77BAA88D2944B532002DEAF4 /* logan-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA8732944B532002DEAF4 /* logan-wide.jpg */; };
 		77BAA88E2944B532002DEAF4 /* batmanvsuperman-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA8742944B532002DEAF4 /* batmanvsuperman-small.jpg */; };
+		77BAA8902944D38A002DEAF4 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA88F2944D38A002DEAF4 /* MoviesTableViewController.swift */; };
+		77BAA8922944D3AA002DEAF4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA8912944D3AA002DEAF4 /* Movie.swift */; };
+		77BAA8942944D99B002DEAF4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA8932944D99B002DEAF4 /* MovieTableViewCell.swift */; };
+		77BAA8F92944F247002DEAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BAA8F82944F247002DEAF4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +50,6 @@
 		77BAA8442944B510002DEAF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77BAA8462944B510002DEAF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		77BAA8482944B510002DEAF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77BAA84B2944B510002DEAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77BAA84D2944B511002DEAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77BAA8502944B511002DEAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77BAA8522944B511002DEAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,10 @@
 		77BAA8722944B532002DEAF4 /* suicidesquad-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "suicidesquad-small.jpg"; sourceTree = "<group>"; };
 		77BAA8732944B532002DEAF4 /* logan-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logan-wide.jpg"; sourceTree = "<group>"; };
 		77BAA8742944B532002DEAF4 /* batmanvsuperman-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batmanvsuperman-small.jpg"; sourceTree = "<group>"; };
+		77BAA88F2944D38A002DEAF4 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		77BAA8912944D3AA002DEAF4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		77BAA8932944D99B002DEAF4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		77BAA8F82944F247002DEAF4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +119,15 @@
 				77BAA8442944B510002DEAF4 /* AppDelegate.swift */,
 				77BAA8462944B510002DEAF4 /* SceneDelegate.swift */,
 				77BAA8482944B510002DEAF4 /* ViewController.swift */,
-				77BAA84A2944B510002DEAF4 /* Main.storyboard */,
+				77BAA8F82944F247002DEAF4 /* Main.storyboard */,
 				77BAA84D2944B511002DEAF4 /* Assets.xcassets */,
 				77BAA84F2944B511002DEAF4 /* LaunchScreen.storyboard */,
 				77BAA8522944B511002DEAF4 /* Info.plist */,
 				77BAA8582944B527002DEAF4 /* movies.json */,
 				77BAA85A2944B532002DEAF4 /* Files */,
+				77BAA88F2944D38A002DEAF4 /* MoviesTableViewController.swift */,
+				77BAA8912944D3AA002DEAF4 /* Movie.swift */,
+				77BAA8932944D99B002DEAF4 /* MovieTableViewCell.swift */,
 			);
 			path = BasicMoviesApp;
 			sourceTree = "<group>";
@@ -229,7 +238,6 @@
 				77BAA88D2944B532002DEAF4 /* logan-wide.jpg in Resources */,
 				77BAA8592944B527002DEAF4 /* movies.json in Resources */,
 				77BAA8772944B532002DEAF4 /* kongskull-small.jpg in Resources */,
-				77BAA84C2944B510002DEAF4 /* Main.storyboard in Resources */,
 				77BAA87C2944B532002DEAF4 /* rogueone-small.jpg in Resources */,
 				77BAA8862944B532002DEAF4 /* deadpool-wide.jpg in Resources */,
 				77BAA88A2944B532002DEAF4 /* arrival-wide.jpg in Resources */,
@@ -243,6 +251,7 @@
 				77BAA88E2944B532002DEAF4 /* batmanvsuperman-small.jpg in Resources */,
 				77BAA8882944B532002DEAF4 /* sully-small.jpg in Resources */,
 				77BAA87B2944B532002DEAF4 /* doctorstrange-small.jpg in Resources */,
+				77BAA8F92944F247002DEAF4 /* Main.storyboard in Resources */,
 				77BAA8782944B532002DEAF4 /* deadpool-small.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,23 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BAA8902944D38A002DEAF4 /* MoviesTableViewController.swift in Sources */,
 				77BAA8492944B510002DEAF4 /* ViewController.swift in Sources */,
+				77BAA8942944D99B002DEAF4 /* MovieTableViewCell.swift in Sources */,
 				77BAA8452944B510002DEAF4 /* AppDelegate.swift in Sources */,
 				77BAA8472944B510002DEAF4 /* SceneDelegate.swift in Sources */,
+				77BAA8922944D3AA002DEAF4 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77BAA84A2944B510002DEAF4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77BAA84B2944B510002DEAF4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77BAA84F2944B511002DEAF4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
